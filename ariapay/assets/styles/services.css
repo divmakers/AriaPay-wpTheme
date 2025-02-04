@@ -1,0 +1,32 @@
+/* Text Description Start */
+.shadow-long-text {
+  position: absolute;
+  right: 0;
+  height: 60px;
+  width: 100%;
+  background-image: linear-gradient(
+    0,
+    #f9f9f9 40%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.dark .shadow-long-text {
+  background-image: linear-gradient(0deg, #0d1e48 40%, rgba(3, 4, 7, 0) 100%);
+}
+/* Text Description End */
+
+/* comments modal start*/
+.modal {
+  position: fixed;
+  z-index: 22;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/* comments modal End */
+
+.custom-shadow-1 {
+  box-shadow: 0px 7px 44px 0px rgba(0, 0, 0, 0.07);
+}

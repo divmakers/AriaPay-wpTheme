@@ -1,0 +1,31 @@
+.active-table {
+  background-color: #2860e6 !important;
+  color: #fff !important;
+}
+
+.submenu2::-webkit-scrollbar {
+  width: 5px;
+}
+
+.dark .submenu2::-webkit-scrollbar-track {
+  background: #152c64;
+  border-radius: 25px;
+}
+
+.submenu2::-webkit-scrollbar-thumb {
+  background: #2860e6;
+  border-radius: 25px;
+}
+
+.submenu2::-webkit-scrollbar-track {
+  background: #d8e4ff;
+  border-radius: 25px;
+}
+
+.submenu2::-webkit-scrollbar-thumb:hover {
+  background: #2860e6;
+}
+
+.custom-box-shadow {
+  box-shadow: 0px 7px 44px 0px rgba(0, 0, 0, 0.07);
+}
